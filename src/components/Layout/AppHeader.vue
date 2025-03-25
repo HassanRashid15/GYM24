@@ -4,11 +4,11 @@
       <!-- Desktop Navigation -->
       <div class="hidden md:flex items-center justify-between">
         <!-- Logo on left -->
-        <router-link to="/" class="flex items-center">
+        <router-link to="/" class="flex items-center w-full h-full">
           <img 
-            :src="logo.src" 
+            src="/WebLogo.png" 
             :alt="logo.alt"
-            class="h-10"
+            class="h-4"
           />
         </router-link>
 
@@ -30,9 +30,9 @@
         <!-- Logo on left -->
         <router-link to="/" class="flex items-center">
           <img 
-            :src="logo.src" 
+            src="/WebLogo.png" 
             :alt="logo.alt"
-            class="h-8"
+            class="h-4"
           />
         </router-link>
 
@@ -76,10 +76,7 @@ export default {
     return {
       isMenuOpen: false,
       logo: {
-        src: "@/assets/logo.png",
-        alt: "Website Logo",
-        mobileHeight: "h-8",
-        desktopHeight: "h-10"
+        alt: "Website Logo"
       },
       navItems: [
         { path: "/", label: "Home" },

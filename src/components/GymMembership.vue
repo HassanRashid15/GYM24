@@ -1,7 +1,6 @@
 <template>
-    <div class=" mt-12 container mx-auto max-w-6xl">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div 
+    <div class=" mt-12 container mx-auto max-w-6xl  px-4 max-sm:px-0 max-md:px-0">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4 bg-black">        <div 
           v-for="pass in passes" 
           :key="pass.name" 
           class="bg-[#1E1E1E] rounded-lg p-6 text-white flex flex-col"

@@ -1,6 +1,6 @@
 <template>
-    <section class="bg-black text-white py-12 px-4 relative">
-      <div class="container mx-auto max-w-6xl p-0">
+<section class="bg-black text-white py-12 px-4 max-sm:px-0 max-md:px-0 relative">
+    <div class="container mx-auto max-w-6xl p-0">
         <div class="grid md:grid-cols-2 gap-8">
           <!-- First Column -->
           <div class="flex items-center space-x-4 mb-6 md:mb-0">

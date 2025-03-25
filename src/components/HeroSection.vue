@@ -1,7 +1,7 @@
 <template>
     <section class="text-white flex items-center justify-center HeroSection_parent">
-      <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
-        <!-- Text Content -->
+        <div class="container mx-auto px-4 max-sm:px-0 grid md:grid-cols-2 gap-8 items-center">
+            <!-- Text Content -->
         <div class="text-center md:text-left space-y-6">
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
             {{ title }}

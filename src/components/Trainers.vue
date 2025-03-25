@@ -1,19 +1,19 @@
 <template>
-  <div class="grid grid-cols-4 gap-4 p-4 bg-black">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7 p-4 px-0 bg-black">
     <div 
       v-for="member in teamMembers" 
       :key="member.name" 
-      class="relative group"
+      class="relative group flex flex-col items-center gap-4 p-5 bg-[#222222] rounded-2xl"
     >
       <img 
         :src="member.image" 
         :alt="member.name" 
-        class="w-full h-[500px] object-cover"
+        class="w-full g-full object-contain"
       />
       <div class="text-white font-bold">
         {{ member.name }}
       </div>
-      <div class="flex">
+      <div class="flex gap-5">
         <a href="#" class="text-white hover:text-gray-300">
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
             <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/>
@@ -39,35 +39,35 @@
 const teamMembers = [
   { 
     name: 'Victoria Shurpik', 
-    image: 'path/to/victoria.jpg' 
+    image: '/TeamMember1.png' 
   },
   { 
     name: 'Elizabeth Lavrynenko', 
-    image: 'path/to/elizabeth.jpg' 
+    image: 'TeamMember2.png' 
   },
   { 
     name: 'Ivan Gladkikh', 
-    image: 'path/to/ivan.jpg' 
+    image: 'TeamMember3.png' 
   },
   { 
     name: 'Lyudmila Sabilo', 
-    image: 'path/to/lyudmila.jpg' 
+    image: 'TeamMember4.png' 
   },
   { 
     name: 'Evgeny Gurkov', 
-    image: 'path/to/evgeny.jpg' 
+    image: 'TeamMember5.png' 
   },
   { 
     name: 'Anatoly Prytytsky', 
-    image: 'path/to/anatoly.jpg' 
+    image: 'TeamMember6.png' 
   },
   { 
     name: 'Victor Ludkovich', 
-    image: 'path/to/victor.jpg' 
+    image: 'TeamMember7.png' 
   },
   { 
     name: 'Maria Masyak', 
-    image: 'path/to/maria.jpg' 
+    image: 'TeamMember8.png' 
   }
 ]
 </script>

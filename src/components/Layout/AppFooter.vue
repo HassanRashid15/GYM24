@@ -5,7 +5,7 @@
       <!-- First Section: Logo and Content -->
       <div class="footer-section logo-section">
         <div class="logo">
-          <img src="/path/to/your/logo.png" alt="Company Logo" class="logo-image">
+          <img src="/WebLogo.png" alt="Company Logo" class="logo-image">
         </div>
         <div class="logo-content">
           <p>Your company description or tagline goes here. Provide a brief overview of your business or application.</p>
@@ -60,9 +60,9 @@ export default {
 
 <style scoped>
 .footer {
-  background-color: #333;
   color: white;
   padding: 2rem 0;
+  padding-bottom: 0px;
 }
 
 .footer-container {
@@ -84,9 +84,7 @@ export default {
 }
 
 .footer-section h4 {
-  border-bottom: 2px solid #555;
   padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
   color: #fff;
 }
 
