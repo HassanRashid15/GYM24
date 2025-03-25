@@ -14,20 +14,15 @@
 
       <!-- Second Section: Quick Links -->
       <div class="footer-section links-section">
-        <h4>Quick Links</h4>
+        <h4>Address</h4>
         <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact</a></li>
-          </ul>
+         <h1>Republic of Belarus Minsk city Dzerzhinsky Avenue 15</h1>
         </nav>
       </div>
 
       <!-- Third Section: Resources and Social Icons -->
       <div class="footer-section resources-section">
-        <h4>Resources</h4>
+        <h4>Contact</h4>
         <nav>
           <ul>
             <li><a href="/privacy">Privacy Policy</a></li>

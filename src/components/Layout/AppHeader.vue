@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-gray-800 text-white p-4">
+  <header class="bg-transparent text-white p-4 absolute w-full">
     <nav class="max-w-6xl mx-auto">
       <!-- Desktop Navigation -->
       <div class="hidden md:flex items-center justify-between">

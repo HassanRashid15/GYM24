@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black p-6 mt-12">
+    <div class=" mt-12 container mx-auto max-w-6xl">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div 
           v-for="pass in passes" 
